@@ -1,0 +1,44 @@
+@media (max-width: 536px) {
+    .label-block {
+        margin-left: 0;
+    }
+    .header-block_nav-list {
+        margin-left: -60px;
+    }
+    .main-title-block {
+        margin-left: 0;
+        text-align: center;
+        align-items: center;
+    }
+    .main-title-block_title {
+        font-size: 30px;
+    }
+    .capabilitys-area-block {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .screen-block {
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        overflow-x: hidden;
+    }
+    .team-bio-block {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .team-title-block {
+        margin-top: 50px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .footer-block {
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+    .footer-block_txt {
+        text-align: center;
+    }
+}

@@ -1,0 +1,262 @@
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+button {
+  border: none; }
+  button:hover {
+    cursor: pointer; }
+
+.banner {
+  width: 100%;
+  height: 1057px;
+  background-image: url(../images/backgrounds/bcgrnd.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.label-block {
+  margin-left: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 140px;
+  height: 74px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #fa5c65; }
+
+.label-block_txt {
+  padding-bottom: 14px;
+  color: #fff;
+  font-family: Domine, sans-serif;
+  font-size: 18px;
+  font-weight: 700; }
+
+.label-block_link {
+  color: #fff; }
+
+.label-block_txt_point {
+  color: #314a5b; }
+
+.header-block_nav-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.header-block_nav-list_item {
+  margin-top: 15px;
+  padding-left: 30px;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.header-block_nav-list_link {
+  color: #263742; }
+  .header-block_nav-list_link:hover {
+    text-decoration: underline; }
+
+.main-title-block {
+  margin-left: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 605px; }
+
+.main-title-block_title {
+  color: #314a5b;
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase; }
+
+.main-title-block_title_point {
+  color: #fa5c65; }
+
+.main-title-block_txt {
+  color: #314a5b;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  font-weight: 400; }
+
+.main-title-block_btn {
+  margin-top: 40px;
+  width: 171px;
+  height: 64px;
+  border-radius: 10px;
+  background-color: #fa5c65;
+  color: #ffffff;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.capabilitys-area-block {
+  margin-left: 165px;
+  margin-right: 115px;
+  margin-top: 82px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.capability-block_title {
+  color: #465065;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 900;
+  text-transform: uppercase; }
+
+.capability-block_txt {
+  padding-bottom: 15px;
+  color: #9aa0ab;
+  font-family: Open Sans, sans-serif;
+  font-size: 15px;
+  font-weight: 400; }
+
+.capability-block_info {
+  color: #fa5c65;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase; }
+
+.screen-block {
+  margin-top: 104px;
+  margin-left: 165px;
+  margin-right: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.screen-block_img {
+  width: 398px;
+  height: 301px;
+  background-image: url(../images/pictures/MacBook.png);
+  background-repeat: no-repeat; }
+
+.screen-block_title {
+  margin-bottom: 17px;
+  color: #314a5b;
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase; }
+
+.screen-block_subtitle {
+  color: #314a5b;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 900; }
+
+.screen-block_txt {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: #9aa0ab;
+  font-family: Open Sans, sans-serif;
+  font-size: 15px;
+  font-weight: 400; }
+
+.team-title-block {
+  margin-top: 105px;
+  margin-left: 200px; }
+
+.team-title-block_title {
+  margin-bottom: 12px;
+  color: #314a5b;
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.team-title-block_txt {
+  color: #9aa0ab;
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+
+.team-bio-block {
+  margin-left: 175px;
+  margin-right: 120px;
+  margin-top: 58px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.bio-block {
+  display: flex; }
+
+.bio-block_first-img {
+  width: 120px;
+  height: 120px;
+  background-image: url(../images/pictures/Photo.png); }
+
+.bio-block_second-img {
+  width: 120px;
+  height: 120px;
+  background-image: url(../images/pictures/Photo2.png); }
+
+.bio-block_third-img {
+  width: 120px;
+  height: 120px;
+  background-image: url(../images/pictures/Photo3.png); }
+
+.info-block {
+  padding-left: 22px; }
+
+.info-block_title {
+  margin-bottom: 5px;
+  color: #314a5b;
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.info-block_subtitle {
+  color: #fa5c65;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 900; }
+
+.info-block_txt {
+  color: #9aa0ab;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400; }
+
+.more-block {
+  margin-top: 67px;
+  margin-right: 130px;
+  display: flex;
+  justify-content: flex-end; }
+
+.footer-block {
+  margin-top: 130px;
+  margin-right: 125px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border-top: 2px solid #f2f4f6; }
+
+.footer-block_list {
+  margin-left: -60px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+.footer-block_list_item {
+  padding-left: 22px; }
+
+.footer-block_txt {
+  color: #b9c0c6;
+  font-family: Open Sans, sans-serif;
+  font-size: 13px;
+  font-weight: 900; }
